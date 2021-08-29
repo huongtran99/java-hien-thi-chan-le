@@ -12,7 +12,7 @@ public class Main {
         try {
             thread1.join();
         } catch (InterruptedException e) {
-            System.out.println("Luồng đang bị gián đoạn");
+            e.printStackTrace();
         }
         thread2.start();
 
